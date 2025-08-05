@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "UintsOfWorkTest.Controllers.OrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Order/order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UintsOfWorkTest.Dtos.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UintsOfWorkTest.Controllers.OrderController",
+    "Method": "CreateOrder2",
+    "RelativePath": "api/Order/order2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UintsOfWorkTest.Dtos.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
