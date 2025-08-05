@@ -98,7 +98,6 @@
             //this.InternalContextManager = internalContextManager;
             //this.InternalSimpleCRUD = new SimpleCRUD();
             //SetResolver();
-
             //this.isReadOnly = InternalContextManager.IsReadOnly;
             //this.isolationLevel = InternalContextManager.IsolationLevel;
             //this.IsDisposed = false;
