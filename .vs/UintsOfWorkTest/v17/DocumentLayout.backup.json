@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,32 +47,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "UintsOfWorkTest\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Order.cs",
-              "RelativeToolTip": "UintsOfWorkTest\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T15:18:08.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "UintsOfWorkTest\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Customer.cs",
-              "RelativeToolTip": "UintsOfWorkTest\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T15:17:24.248Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,9 +82,48 @@
               "RelativeDocumentMoniker": "UintsOfWorkTest\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "UintsOfWorkTest\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T14:49:40.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "UintsOfWorkTest\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Services\\CustomerService.cs",
+              "RelativeToolTip": "UintsOfWorkTest\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAArwIoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:36:16.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "UintsOfWorkTest\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Customer.cs",
+              "RelativeToolTip": "UintsOfWorkTest\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:17:24.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "UintsOfWorkTest\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Order.cs",
+              "RelativeToolTip": "UintsOfWorkTest\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:18:08.196Z",
               "EditorCaption": ""
             },
             {
@@ -124,19 +137,6 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T14:48:11.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "UintsOfWorkTest\\Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Services\\CustomerService.cs*",
-              "RelativeToolTip": "UintsOfWorkTest\\Services\\CustomerService.cs*",
-              "ViewState": "AgIAAIgAAAAAAAAAAAArwI4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T14:36:16.934Z",
               "EditorCaption": ""
             }
           ]

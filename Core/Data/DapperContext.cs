@@ -20,7 +20,7 @@
         public class DapperContext : IDapperContext //, IInternalContext
     {
             private bool isReadOnly;
-            /// <summary>Valore precedente del context manager del bool IsReadOnly, serve per il ripristino in caso di nested context</summary>
+        
             //private bool? previousContextReadOnlyInfo;
 
             /// <summary>Valore precedente del context manager del TableNameResolverMode, serve per il ripristino in caso di nested context</summary>

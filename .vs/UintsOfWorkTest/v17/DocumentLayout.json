@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1635D33-83DB-466B-97E0-1DF1CEA0A266}|Core\\Core.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\core\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1635D33-83DB-466B-97E0-1DF1CEA0A266}|Core\\Core.csproj|solutionrelative:core\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\extensions\\dependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\extensions\\dependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\uintsofworktest\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A81EC947-81EE-4B71-89E9-3D1497EF5980}|UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj|solutionrelative:uintsofworktest\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1635D33-83DB-466B-97E0-1DF1CEA0A266}|Core\\Core.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\core\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1635D33-83DB-466B-97E0-1DF1CEA0A266}|Core\\Core.csproj|solutionrelative:core\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1635D33-83DB-466B-97E0-1DF1CEA0A266}|Core\\Core.csproj|c:\\users\\l.schiavon\\desktop\\varie luca schiavon\\unitsofworkwithdappercontext\\core\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +62,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "UintsOfWorkTest\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "UintsOfWorkTest\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:37:19.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "UintsOfWorkTest\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "UintsOfWorkTest\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:37:12.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Extensions\\DependencyInjectionExtensions.cs",
+              "RelativeDocumentMoniker": "UintsOfWorkTest\\Extensions\\DependencyInjectionExtensions.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Extensions\\DependencyInjectionExtensions.cs",
+              "RelativeToolTip": "UintsOfWorkTest\\Extensions\\DependencyInjectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:37:01.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Data\\DapperContext.cs",
+              "RelativeDocumentMoniker": "Core\\Data\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Data\\DapperContext.cs",
+              "RelativeToolTip": "Core\\Data\\DapperContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:05:19.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "Core\\Repositories\\Repository.cs",
@@ -58,25 +122,11 @@
               "RelativeToolTip": "Core\\Repositories\\Repository.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAA0wGoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T14:37:24.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T14:37:24.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DapperContext.cs",
-              "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Data\\DapperContext.cs",
-              "RelativeDocumentMoniker": "Core\\Data\\DapperContext.cs",
-              "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Data\\DapperContext.cs",
-              "RelativeToolTip": "Core\\Data\\DapperContext.cs",
-              "ViewState": "AgIAAAACAAAAAAAAAAAYwBkCAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T15:05:19.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "UintsOfWorkTest\\Controllers\\CustomerController.cs",
@@ -89,20 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "UintsOfWorkTest\\Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Services\\CustomerService.cs",
               "RelativeToolTip": "UintsOfWorkTest\\Services\\CustomerService.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAArwIoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAArwHwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T14:36:16.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "UintsOfWorkTest\\Entities\\Customer.cs",
@@ -115,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "UintsOfWorkTest\\Entities\\Order.cs",
@@ -123,12 +173,11 @@
               "RelativeToolTip": "UintsOfWorkTest\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T15:18:08.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T15:18:08.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "UintsOfWorkTest\\Controllers\\OrderController.cs",
