@@ -53,9 +53,9 @@
             /// <summary>Database user name property</summary>
             //protected string UserName;
         //internal SimpleCRUD InternalSimpleCRUD;
-        ///// <inheritdoc />
+    
         //bool IInternalContext.IsTransactionLessInternal { get { return IsTransactionLess; } }
-        ///// <inheritdoc />
+  
         //bool IInternalContext.IsDisposedInternal { get { return IsDisposed; } }
         /// <inheritdoc />
         //void IInternalContext.SetReadOnlyInfo(bool readOnly)
