@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lfs+Ghk7zTA=",
+  "dgSpecHash": "aWKGm0v2GGs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UintsOfWorkTestWithDapper 1 versione semplice\\UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj",
+  "projectFilePath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\l.schiavon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\l.schiavon\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\l.schiavon\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\l.schiavon\\.nuget\\packages\\dapper.simplecrud\\2.3.0\\dapper.simplecrud.2.3.0.nupkg.sha512",
     "C:\\Users\\l.schiavon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\l.schiavon\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\l.schiavon\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

@@ -1,5 +1,5 @@
-﻿using UintsOfWorkTest.Entities;
-using UintsOfWorkTest.Repositories.Base;
+﻿using Core.Repositories;
+using UintsOfWorkTest.Entities;
 
 namespace UintsOfWorkTest.Repositories
 {

@@ -60,6 +60,23 @@
           }
         }
       },
+      "Dapper.SimpleCRUD/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "2.0.78",
+          "Microsoft.CSharp": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Dapper.SimpleCRUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.SimpleCRUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1765,6 +1782,21 @@
             "rid": "win"
           }
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper": "2.1.66",
+          "Dapper.SimpleCRUD": "2.3.0",
+          "System.Data.SqlClient": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
       }
     }
   },
@@ -1824,6 +1856,22 @@
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml",
         "readme.md"
+      ]
+    },
+    "Dapper.SimpleCRUD/2.3.0": {
+      "sha512": "9wj9b3IYADmNea3hwlkS0qKRCcbTYcJ4uYCdZdE9O34nTvl0mJv1Hy6sSFA5t/UN8zKscWiDFWT8B+4tOnoQvA==",
+      "type": "package",
+      "path": "dapper.simplecrud/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "dapper.simplecrud.2.3.0.nupkg.sha512",
+        "dapper.simplecrud.nuspec",
+        "images/SimpleCRUD-200x200.png",
+        "lib/netstandard2.0/Dapper.SimpleCRUD.dll",
+        "lib/netstandard2.0/Dapper.SimpleCRUD.pdb",
+        "lib/netstandard2.0/Dapper.SimpleCRUD.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -5339,10 +5387,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Core >= 1.0.0",
       "Dapper >= 2.1.66",
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
@@ -5358,11 +5412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UintsOfWorkTestWithDapper 1 versione semplice\\UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj",
+      "projectUniqueName": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj",
       "projectName": "UintsOfWorkTestWithDapper",
-      "projectPath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UintsOfWorkTestWithDapper 1 versione semplice\\UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj",
+      "projectPath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\UintsOfWorkTestWithDapper.csproj",
       "packagesPath": "C:\\Users\\l.schiavon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UintsOfWorkTestWithDapper 1 versione semplice\\UintsOfWorkTest\\obj\\",
+      "outputPath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\UintsOfWorkTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5383,7 +5437,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\l.schiavon\\Desktop\\Varie Luca Schiavon\\UnitsOfWorkWithDapperContext\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

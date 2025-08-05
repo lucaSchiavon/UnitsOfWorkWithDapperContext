@@ -1,0 +1,101 @@
+## Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+**/packages.config
+project.lock.json
+project.assets.json
+
+# dotnet CLI
+project.nuget.cache
+artifacts/
+
+# Paket
+.paket/
+paket-files/
+
+## Rider
+.idea/
+*.sln.iml
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## TFS
+$tf/
+
+## Visual Studio Code
+.history/
+
+## Others
+*.dbmdl
+*.bak
+*.orig
+*.tmp
+*.tmp.*
+*.svclog
+*.pdb
+*.cache
+*.mdb
+*.config
+*.TestResults/
+TestResults/
+*.vspscc
+*.vssscc
+*.ncrunch*
+*.crunchproject
+*.localhistory/
+*.sdf
+*.opensdf
+*.dbmdl
+*.VC.db
+*.vscode/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# Uncomment if using Unity
+# [Ll]ibrary/
+# [Tt]emp/
+# [Oo]bj/
+# [Bb]uild/
+# [Bb]uilds/
+# [Ll]ogs/

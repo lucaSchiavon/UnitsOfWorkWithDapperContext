@@ -1,5 +1,5 @@
-﻿using UintsOfWorkTest.Repositories;
-using UintsOfWorkTestWithDapper.Data;
+﻿using Core.Data;
+using UintsOfWorkTest.Repositories;
 
 namespace UintsOfWorkTest.UnitsOfWork
 {

@@ -11,25 +11,25 @@ namespace UintsOfWorkTest.Services
 
         public CustomerService(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;  
+            _unitOfWork = unitOfWork;
         }
 
         public async Task CreateCustomerAsync(string customerName)
         {
-            
-           int CustId= _unitOfWork.Customers.Execute("INSERT INTO Customers (Name) VALUES (@Name)", new { Name = customerName });
 
-  
+            int CustId = _unitOfWork.Customers.Execute("INSERT INTO Customers (Name) VALUES (@Name)", new { Name = customerName });
+
+
             _unitOfWork.Commit();
         }
         //un esempio di come chiamare tutti i metodi base definiti nella repository base
-        public async Task RunExamplesAsync()
+        public async Task RunExamplesDapperAsync()
         {
             string name = "Alice";
 
             // 1. INSERT (Execute)
             int rows = _unitOfWork.Customers.Execute("INSERT INTO Customers (Name) VALUES (@Name)", new { Name = name });
-
+            _unitOfWork.Commit();
             // 2. SELECT LIST (Query)
             IList<Customer> customers = _unitOfWork.Customers.Query("SELECT * FROM Customers");
 
@@ -135,7 +135,110 @@ namespace UintsOfWorkTest.Services
             _unitOfWork.Commit();
         }
 
+        public async Task RunExamplesDapperSimpleCrud()
+        {
+            // Create new customer
+            var newCustomer = new Customer
+            {
+                Name = "Charlie"
+                // aggiungi altri campi se esistono
+            };
 
+            // 1. Insert (sync)
+            int? newId = _unitOfWork.Customers.Insert(newCustomer);
+            Console.WriteLine($"Inserted Customer ID (sync): {newId}");
 
+            //_unitOfWork.Commit();
+
+            // 2. Get (sync)
+            Customer retrievedCustomer = _unitOfWork.Customers.Get(newId);
+            Console.WriteLine($"Retrieved Customer: {retrievedCustomer?.Name}");
+
+            // 3. GetList (sync)
+            IEnumerable<Customer> customerList = _unitOfWork.Customers.GetList(new { Name = "Charlie" });
+            foreach (var c in customerList)
+                Console.WriteLine($"Listed Customer: {c.Name}");
+
+            // 4. Update (sync)
+            if (retrievedCustomer != null)
+            {
+                retrievedCustomer.Name = "Charlie Updated";
+                int updated = _unitOfWork.Customers.Update(retrievedCustomer);
+                Console.WriteLine($"Updated Rows: {updated}");
+            }
+
+            // 5. Delete by entity (sync)
+            if (retrievedCustomer != null)
+            {
+                int deleted = _unitOfWork.Customers.Delete(retrievedCustomer);
+                Console.WriteLine($"Deleted Rows (by entity): {deleted}");
+            }
+
+            // 6. Delete by id (sync)
+            if (newId.HasValue)
+            {
+                int deletedById = _unitOfWork.Customers.Delete(newId.Value);
+                Console.WriteLine($"Deleted Rows (by ID): {deletedById}");
+            }
+
+            // 7. DeleteList (sync)
+            int deletedList = _unitOfWork.Customers.DeleteList(new { Name = "Charlie Updated" });
+            Console.WriteLine($"Deleted Rows (by condition): {deletedList}");
+
+            // 8. RecordCount (sync)
+            int totalCount = _unitOfWork.Customers.RecordCount();
+            Console.WriteLine($"Total Customer Count: {totalCount}");
+
+            // ASYNC VARIANTI
+            var asyncCustomer = new Customer { Name = "Async Joe" };
+
+            // 9. InsertAsync
+            int? asyncId = await _unitOfWork.Customers.InsertAsync(asyncCustomer);
+            Console.WriteLine($"Inserted Customer ID (async): {asyncId}");
+
+            // 10. GetAsync
+            Customer asyncRetrieved = await _unitOfWork.Customers.GetAsync(asyncId);
+            Console.WriteLine($"Retrieved Customer (async): {asyncRetrieved?.Name}");
+
+            // 11. GetListAsync
+            IEnumerable<Customer> asyncList = await _unitOfWork.Customers.GetListAsync(new { Name = "Async Joe" });
+            foreach (var c in asyncList)
+                Console.WriteLine($"Async Listed: {c.Name}");
+
+            // 12. UpdateAsync
+            if (asyncRetrieved != null)
+            {
+                asyncRetrieved.Name = "Async Joe Updated";
+                int updatedAsync = await _unitOfWork.Customers.UpdateAsync(asyncRetrieved);
+                Console.WriteLine($"Updated Rows (async): {updatedAsync}");
+            }
+
+            // 13. DeleteAsync by entity
+            if (asyncRetrieved != null)
+            {
+                int deletedAsync = await _unitOfWork.Customers.DeleteAsync(asyncRetrieved);
+                Console.WriteLine($"Deleted Rows (async by entity): {deletedAsync}");
+            }
+
+            // 14. DeleteAsync by id
+            if (asyncId.HasValue)
+            {
+                int deletedByIdAsync = await _unitOfWork.Customers.DeleteAsync(asyncId.Value);
+                Console.WriteLine($"Deleted Rows (async by ID): {deletedByIdAsync}");
+            }
+
+            // 15. DeleteListAsync
+            int deletedListAsync = await _unitOfWork.Customers.DeleteListAsync(new { Name = "Async Joe Updated" });
+            Console.WriteLine($"Deleted Rows (async by condition): {deletedListAsync}");
+
+            // 16. RecordCountAsync
+            int totalCountAsync = await _unitOfWork.Customers.RecordCountAsync();
+            Console.WriteLine($"Total Customer Count (async): {totalCountAsync}");
+
+            // Commit at
+            _unitOfWork.Commit();
+
+        }
     }
+
 }

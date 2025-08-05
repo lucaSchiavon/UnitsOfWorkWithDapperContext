@@ -1,25 +1,9 @@
-﻿using UintsOfWorkTestWithDapper.Data;
+﻿using Core.Data;
 
 
 namespace UintsOfWorkTest.UnitsOfWork
 {
-    //public class UnitOfWorkFactory:IUnitOfWorkFactory
-    //{
-    //    private readonly AppDbContext _context;
 
-    //    // Costruttore che riceve l'istanza di AppDbContext
-    //    public UnitOfWorkFactory(AppDbContext context)
-    //    {
-    //        _context = context;
-    //    }
-
-    //    // Metodo per creare una nuova istanza di UnitOfWork
-    //    public IUnitOfWork Create()
-    //    {
-    //        // Restituisce una nuova istanza di UnitOfWork
-    //        return new UnitOfWork(_context);
-    //    }
-    //}
 
     public class UnitOfWorkFactory : IUnitOfWorkFactory
     {

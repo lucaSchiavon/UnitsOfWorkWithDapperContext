@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UintsOfWorkTestWithDapper", "UintsOfWorkTest\UintsOfWorkTestWithDapper.csproj", "{A81EC947-81EE-4B71-89E9-3D1497EF5980}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{C1635D33-83DB-466B-97E0-1DF1CEA0A266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A81EC947-81EE-4B71-89E9-3D1497EF5980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A81EC947-81EE-4B71-89E9-3D1497EF5980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A81EC947-81EE-4B71-89E9-3D1497EF5980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1635D33-83DB-466B-97E0-1DF1CEA0A266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1635D33-83DB-466B-97E0-1DF1CEA0A266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1635D33-83DB-466B-97E0-1DF1CEA0A266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1635D33-83DB-466B-97E0-1DF1CEA0A266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

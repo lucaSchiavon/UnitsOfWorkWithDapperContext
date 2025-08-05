@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UintsOfWorkTestWithDapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aecb5762ebaf9c623759bb320bcd35c03c73d465")]
 [assembly: System.Reflection.AssemblyProductAttribute("UintsOfWorkTestWithDapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UintsOfWorkTestWithDapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

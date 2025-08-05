@@ -38,6 +38,16 @@ namespace UintsOfWorkTest.Controllers
             return Ok("Ordine creato con successo");
         }
 
+        //[HttpGet("testMethods")]
+        //public async Task<IActionResult> testMethods([FromBody] CreateOrderRequest request)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest(ModelState);
+
+        //    await _customerService.CreateOrderAsync2(request.CustomerName, request.Product);
+        //    return Ok("Ordine creato con successo");
+        //}
+
         //// GET: api/order/{id}
         //[HttpGet("{id:int}")]
         //public async Task<IActionResult> GetOrder(int id, [FromServices] IUnitOfWork unitOfWork)

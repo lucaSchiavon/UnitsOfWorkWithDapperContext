@@ -1,6 +1,6 @@
-﻿using UintsOfWorkTest.Services;
+﻿using Core.Data;
+using UintsOfWorkTest.Services;
 using UintsOfWorkTest.UnitsOfWork;
-using UintsOfWorkTestWithDapper.Data;
 
 namespace UintsOfWorkTestWithDapper.Extensions
 {

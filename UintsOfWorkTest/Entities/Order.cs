@@ -1,5 +1,8 @@
-﻿namespace UintsOfWorkTest.Entities
+﻿using Dapper;
+
+namespace UintsOfWorkTest.Entities
 {
+    [Table("Orders")]
     public class Order
     {
         public int Id { get; set; }

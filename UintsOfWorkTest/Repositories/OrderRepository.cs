@@ -1,6 +1,6 @@
-﻿using UintsOfWorkTest.Entities;
-using UintsOfWorkTest.Repositories.Base;
-using UintsOfWorkTestWithDapper.Data;
+﻿using Core.Data;
+using Core.Repositories;
+using UintsOfWorkTest.Entities;
 
 namespace UintsOfWorkTest.Repositories
 {
